@@ -1,0 +1,14 @@
+.signIn {
+    &__right {
+        background: url(/img-signin.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: var(--font-color);
+    }
+
+    @media (max-width: 899px) {
+        &__right {
+            display: none;
+        }
+    }
+}

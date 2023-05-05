@@ -1,0 +1,10 @@
+export { default as SignIn } from './SignIn';
+export { default as ForgotPassword } from './ForgotPassword';
+export { default as Dashboard } from './Dashboard';
+export { default as Products } from './Products';
+export { default as ProductDetails } from './ProductDetails';
+export { default as Costumers } from './Costumers';
+export { default as CostumerDetails } from './CostumerDetails';
+export { default as Staff } from './Staff';
+export { default as StaffDetails } from './StaffDetails';
+export { default as Settings } from './Settings';

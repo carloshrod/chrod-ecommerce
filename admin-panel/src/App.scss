@@ -1,0 +1,24 @@
+// ********** Abstracts **********
+@use './sass/abstracts/variables';
+
+// ********** Base **********
+@use './sass/base/base';
+@use './sass/base/resets';
+
+// ********** Components **********
+@use './sass/components/FormSignIn';
+@use './sass/components/Navbar';
+@use './sass/components/ToggleSidebar';
+@use './sass/components/Sidebar';
+@use './sass/components/MyContainer';
+@use './sass/components/MyProfileActions';
+@use './sass/components/MyProfileContent';
+@use './sass/components/DataTable';
+@use './sass/components/Modal';
+@use './sass/components/Footer';
+@use './sass/components/Loader';
+
+// ********** Pages **********
+@use './sass/pages/SignIn';
+@use './sass/pages/Dashboard';
+@use './sass/pages/MyProfile';

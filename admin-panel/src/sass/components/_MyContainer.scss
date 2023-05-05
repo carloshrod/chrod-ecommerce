@@ -1,0 +1,23 @@
+.myContainer {
+    padding: 1rem 2rem;
+
+    @media (max-width: 599px) {
+        margin-left: 60px !important;
+    }
+
+    @media (max-width: 1199px) {
+        margin-left: 60px;
+
+        &#right {
+            margin-left: 180px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        margin-left: 180px;
+
+        &--left {
+            margin-left: 60px !important;
+        }
+    }
+}

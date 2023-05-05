@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+    font-family: var(--font);
+    background: var(--bg-color);
+    background: -moz-linear-gradient(90deg, var(--bg-color) 25%, var(--bg-color-dark) 75%);
+    background: -webkit-linear-gradient(90deg, var(--bg-color) 25%, var(--bg-color-dark) 75%);
+    background: linear-gradient(90deg, var(--bg-color) 25%, var(--bg-color-dark) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#343867", endColorstr="#16193b", GradientType=1);
+    color: var(--font-color)
+}
+
+a:hover {
+    color: var(--font-color) !important;
+    text-shadow: 0 0 1px var(--font-color) !important;
+}
+
+main {
+    height: 100vh;
+    transition: translate .3s;
+}
+
+.myToast {
+    background: #474c84 !important;
+    color: #e4e0e4 !important;
+}
+
+.error {
+    color: var(--warning-color) !important;
+}
